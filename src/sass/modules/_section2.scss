@@ -11,3 +11,20 @@
         margin: auto;
     }
 }
+
+// RESPONSIVE
+@media screen and (max-width: 440px) {
+    #sect2 {
+        margin-top: 150px !important;
+        h2 {
+            padding: 0 50px;
+        }
+        img{
+            width: 300px;
+        }
+        p {
+            margin-bottom: 50px !important;
+            padding: 20px;
+        }
+    }
+}

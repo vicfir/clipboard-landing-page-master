@@ -24319,6 +24319,9 @@ header .bg-blue {
   header p {
     padding: 20px;
   }
+  header button {
+    width: 80%;
+  }
   header .bg-green {
     margin-bottom: 20px;
   }
@@ -24344,6 +24347,9 @@ header .bg-blue {
 }
 
 @media screen and (max-width: 440px) {
+  #sect1 {
+    margin-top: 150px !important;
+  }
   #sect1 h2, #sect1 .h2 {
     padding: 0 50px;
   }
@@ -24375,6 +24381,21 @@ header .bg-blue {
   margin: auto;
 }
 
+@media screen and (max-width: 440px) {
+  #sect2 {
+    margin-top: 150px !important;
+  }
+  #sect2 h2, #sect2 .h2 {
+    padding: 0 50px;
+  }
+  #sect2 img {
+    width: 300px;
+  }
+  #sect2 p {
+    margin-bottom: 50px !important;
+    padding: 20px;
+  }
+}
 #sect3 h3, #sect3 .h3 {
   font-weight: 600;
   color: hsl(210deg, 10%, 33%);
@@ -24391,6 +24412,33 @@ header .bg-blue {
   height: 80px;
 }
 
+@media screen and (max-width: 440px) {
+  #sect3 {
+    margin-top: 150px !important;
+  }
+  #sect3 h2, #sect3 .h2 {
+    padding: 0 50px;
+  }
+  #sect3 p {
+    padding: 20px;
+    margin-bottom: 50px !important;
+  }
+  #sect3 #cardsSect3 {
+    flex-direction: column;
+    align-items: center;
+  }
+  #sect3 #cardsSect3 div {
+    width: 350px;
+  }
+  #sect3 #logoSect3 {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px !important;
+  }
+  #sect3 #logoSect3 div {
+    margin: 40px 0;
+  }
+}
 #sect4 h2, #sect4 .h2 {
   font-family: baijam;
   font-weight: 600;
