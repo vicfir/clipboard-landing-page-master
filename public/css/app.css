@@ -24385,4 +24385,31 @@ header .bg-blue {
   box-shadow: 0px 5px 30px -10px hsl(233deg, 100%, 69%);
 }
 
+footer {
+  background-color: hsl(0deg, 0%, 98%);
+}
+footer img {
+  width: 50px;
+}
+footer #liensFooter {
+  width: 700px;
+}
+footer #liensFooter div {
+  width: 200px;
+  margin: 10px;
+}
+footer #liensFooter a {
+  text-decoration: none;
+  color: hsl(210deg, 10%, 33%);
+  font-family: baijam;
+  font-size: 18px;
+}
+footer #logoFooter {
+  color: hsl(210deg, 10%, 33%);
+}
+footer #logoFooter i {
+  font-size: 30px;
+  margin: 0 10px;
+}
+
 /*# sourceMappingURL=app.css.map */
