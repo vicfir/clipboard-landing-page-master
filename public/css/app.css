@@ -24291,7 +24291,7 @@ header h1, header .h1 {
 }
 header p {
   font-family: baijam;
-  font-size: 20px;
+  font-size: 18px;
   max-width: 700px;
   margin: auto;
 }
@@ -24320,7 +24320,7 @@ header .bg-blue {
 }
 #sect1 p {
   color: hsl(201deg, 11%, 66%);
-  font-size: 20px;
+  font-size: 18px;
   max-width: 700px;
   margin: auto;
 }
@@ -24338,7 +24338,7 @@ header .bg-blue {
   font-weight: 600;
 }
 #sect2 p {
-  font-size: 20px;
+  font-size: 18px;
   max-width: 700px;
   margin: auto;
 }
@@ -24349,10 +24349,11 @@ header .bg-blue {
 }
 #sect3 p {
   color: hsl(201deg, 11%, 66%);
-  font-size: 20px;
+  font-size: 18px;
 }
 #sect3 #cardsSect3 div {
-  width: 30%;
+  width: 33%;
+  padding: 0 5px;
 }
 #sect3 .imgDiv {
   height: 80px;
