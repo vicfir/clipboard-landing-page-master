@@ -24311,6 +24311,18 @@ header .bg-blue {
   box-shadow: 0px 5px 30px -10px hsl(233deg, 100%, 69%);
 }
 
+@media screen and (max-width: 440px) {
+  header h1, header .h1 {
+    font-size: 30px;
+    padding: 0 40px;
+  }
+  header p {
+    padding: 20px;
+  }
+  header .bg-green {
+    margin-bottom: 20px;
+  }
+}
 #sect1 {
   font-family: baijam;
 }
