@@ -14040,4 +14040,16 @@ header .bg-blue {
   max-width: 450px;
 }
 
+#sect2 {
+  font-family: baijam;
+}
+#sect2 h2, #sect2 .h2 {
+  font-weight: 600;
+}
+#sect2 p {
+  font-size: 20px;
+  max-width: 700px;
+  margin: auto;
+}
+
 /*# sourceMappingURL=app.css.map */
