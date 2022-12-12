@@ -25,3 +25,27 @@
         }
     }
 }
+
+// RESPONSIVE
+@media screen and (max-width: 440px) {
+#sect1 {
+    h2 {
+        padding: 0 50px;
+    }
+    p{
+        padding: 20px;
+    }
+    #compTxt {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        #imgSect1 {
+            left: 0px;
+            width: 300px;
+        }
+        #txtSect1 {
+            padding: 10px !important;
+        }
+    }
+}
+}
