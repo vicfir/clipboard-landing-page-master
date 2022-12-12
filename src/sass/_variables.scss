@@ -1,0 +1,35 @@
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+
+//* Création de variable SASS
+// $colorOrange : #ff6863;
+// $colorGrey : #797979;
+
+// BOOTSTRAP --------------------------------------------------------- //
+
+//* Création de Spacer 
+$spacer : 5px;
+
+$spacers : map-merge($spacers, (
+    0 : 0px ,
+    1 : $spacer*1 ,
+    2 : $spacer*2 ,
+    3 : $spacer*3 ,
+    4 : $spacer*4 ,
+    5 : $spacer*5 ,
+    6 : $spacer*8 ,
+    7 : $spacer*10 ,
+    8 : $spacer*14 ,
+    9 : $spacer*22 ,
+    10 : $spacer*38 ,
+    11 : $spacer*50 ,
+    12 : $spacer*75 ,
+    13 : $spacer*100 ,
+));
+
+$couleur-perso : (
+    "gren" : hsl(171, 66%, 44%),
+    "blue" : hsl(233, 100%, 69%),
+);
+
+$theme-colors : map-merge($theme-colors , $couleur-perso);
