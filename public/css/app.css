@@ -13990,16 +13990,19 @@ textarea.form-control-lg {
   }
 }
 header {
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgb(255, 255, 255)), url("../../public/img/bg-header-desktop.png");
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url("../../public/img/bg-header-desktop.png");
+  background-size: cover;
 }
 header h1, header .h1 {
   font-family: baijam;
   font-weight: 600;
-  font-size: 40px;
+  font-size: 45px;
 }
 header p {
   font-family: baijam;
   font-size: 20px;
+  max-width: 700px;
+  margin: auto;
 }
 header button {
   font-family: baijam;
