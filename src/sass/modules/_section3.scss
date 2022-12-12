@@ -21,31 +21,31 @@
 
 // RESPONSIVE
 @media screen and (max-width: 440px) {
-    #sect3 {
-        margin-top: 150px !important;
-        h2 {
-            padding: 0 50px;
-        }
-        
-        p {
-            padding: 20px;
-            margin-bottom: 50px !important;
-        }
-        #cardsSect3 {
-            flex-direction: column;
-            align-items: center;
+#sect3 {
+    margin-top: 150px !important;
+    h2 {
+        padding: 0 50px;
+    }
+    
+    p {
+        padding: 20px;
+        margin-bottom: 50px !important;
+    }
+    #cardsSect3 {
+        flex-direction: column;
+        align-items: center;
 
-            div {
-                width: 350px;
-            }
-        }
-        #logoSect3 {
-            flex-direction: column;
-            align-items: center;
-            margin-top: 50px !important;
-            div{
-                margin: 40px 0;
-            }
+        div {
+            width: 350px;
         }
     }
+    #logoSect3 {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px !important;
+        div{
+            margin: 40px 0;
+        }
+    }
+}
 }
