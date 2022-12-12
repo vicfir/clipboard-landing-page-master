@@ -30,3 +30,21 @@ footer {
         }
     }
 }
+
+// RESPONSIVE
+@media screen and (max-width: 440px) {
+footer {
+    div {
+        flex-direction: column;
+
+        #liensFooter {
+            width: 100%;
+            align-items: center;
+            margin: 20px;
+            div {
+                text-align: center;
+            }
+        }
+    }
+}
+}

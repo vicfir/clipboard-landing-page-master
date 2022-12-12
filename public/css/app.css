@@ -24511,4 +24511,18 @@ footer #logoFooter i {
   margin: 0 10px;
 }
 
+@media screen and (max-width: 440px) {
+  footer div {
+    flex-direction: column;
+  }
+  footer div #liensFooter {
+    width: 100%;
+    align-items: center;
+    margin: 20px;
+  }
+  footer div #liensFooter div {
+    text-align: center;
+  }
+}
+
 /*# sourceMappingURL=app.css.map */
