@@ -28,8 +28,10 @@ $spacers : map-merge($spacers, (
 ));
 
 $couleur-perso : (
-    "gren" : hsl(171, 66%, 44%),
+    "green" : hsl(171, 66%, 44%),
     "blue" : hsl(233, 100%, 69%),
+    "greyDark" : hsl(210, 10%, 33%),
+    "grey" : hsl(201, 11%, 66%)
 );
 
 $theme-colors : map-merge($theme-colors , $couleur-perso);
