@@ -14020,4 +14020,24 @@ header .bg-blue {
   box-shadow: 0px 5px 30px -10px hsl(233deg, 100%, 69%);
 }
 
+#sect1 {
+  font-family: baijam;
+}
+#sect1 h2, #sect1 .h2, #sect1 h3, #sect1 .h3 {
+  font-weight: 600;
+  color: hsl(210deg, 10%, 33%);
+}
+#sect1 p {
+  color: hsl(201deg, 11%, 66%);
+  font-size: 20px;
+  max-width: 700px;
+  margin: auto;
+}
+#sect1 #compTxt #imgSect1 {
+  left: -30px;
+}
+#sect1 #compTxt .py-5 p {
+  max-width: 450px;
+}
+
 /*# sourceMappingURL=app.css.map */
