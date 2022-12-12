@@ -24343,4 +24343,19 @@ header .bg-blue {
   margin: auto;
 }
 
+#sect3 h3, #sect3 .h3 {
+  font-weight: 600;
+  color: hsl(210deg, 10%, 33%);
+}
+#sect3 p {
+  color: hsl(201deg, 11%, 66%);
+  font-size: 20px;
+}
+#sect3 #cardsSect3 div {
+  width: 30%;
+}
+#sect3 .imgDiv {
+  height: 80px;
+}
+
 /*# sourceMappingURL=app.css.map */
