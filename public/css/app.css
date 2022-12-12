@@ -24359,4 +24359,30 @@ header .bg-blue {
   height: 80px;
 }
 
+#sect4 h2, #sect4 .h2 {
+  font-family: baijam;
+  font-weight: 600;
+}
+#sect4 p {
+  font-family: baijam;
+  font-size: 18px;
+  max-width: 700px;
+  margin: auto;
+}
+#sect4 button {
+  font-family: baijam;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 30px;
+  color: white;
+}
+#sect4 .bg-green {
+  border-bottom: 3px solid hsl(172deg, 66%, 36%);
+  box-shadow: 0px 5px 30px -10px hsl(171deg, 66%, 44%);
+}
+#sect4 .bg-blue {
+  border-bottom: 3px solid hsl(233deg, 54%, 55%);
+  box-shadow: 0px 5px 30px -10px hsl(233deg, 100%, 69%);
+}
+
 /*# sourceMappingURL=app.css.map */
